@@ -1,3 +1,15 @@
+/*
+ * Este programa fue realizado por los siguientes integrantes:
+ *  * Flores Contreras Ariel Roberto
+ *  * Gonzalez Mendez Omar Gabriel
+ *  * Pegueros Trinidad Jorge Alexis
+ *  * Ramirez Pineda Luis Ernesto
+ *  * Rebolledo Hernandez Jesus Benjamin
+ *
+ * Instrucciones:
+ * 7. Escriba un subprograma recursivo que compruebe si un número es binario.
+ * Un número binario está formado únicamente por ceros y unos. 20 Puntos.
+ */
 package Recursion.Ejercicio7;
 
 public class Main {
@@ -38,3 +50,4 @@ public class Main {
         return esBinario(n / 10);
     }
 }
+

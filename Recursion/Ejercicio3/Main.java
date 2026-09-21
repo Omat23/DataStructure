@@ -1,3 +1,16 @@
+/*
+ * Este programa fue realizado por los siguientes integrantes:
+ *  * Flores Contreras Ariel Roberto
+ *  * Gonzalez Mendez Omar Gabriel
+ *  * Pegueros Trinidad Jorge Alexis
+ *  * Ramirez Pineda Luis Ernesto
+ *  * Rebolledo Hernandez Jesus Benjamin
+ *
+ * Instrucciones:
+ * 3. Escriba un subprograma recursivo que dado como dato un arreglo
+ * unidimensional de tipo entero, escriba el contenido de sus casillas de
+ * derecha a izquierda. El arreglo original no deberá modificarse. 10 puntos.
+ */
 package Recursion.Ejercicio3;
 
 public class Main {
@@ -30,3 +43,4 @@ public class Main {
         imprimirReversa(arr, index - 1);
     }
 }
+

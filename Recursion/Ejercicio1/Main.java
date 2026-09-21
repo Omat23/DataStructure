@@ -1,3 +1,17 @@
+/*
+ * Este programa fue realizado por los siguientes integrantes:
+ *  * Flores Contreras Ariel Roberto
+ *  * Gonzalez Mendez Omar Gabriel
+ *  * Pegueros Trinidad Jorge Alexis
+ *  * Ramirez Pineda Luis Ernesto
+ *  * Rebolledo Hernandez Jesus Benjamin
+ *
+ * Instrucciones:
+ * 1. Escriba un subprograma recursivo que invierta el orden de los elementos de un
+ * arreglo de N números enteros. Es decir, que el elemento que está en la posición 1 se
+ * intercambie con el que está en la posición N, el de la posición 2, con el de la N - 1
+ * y así sucesivamente. 15 puntos.
+ */
 package Recursion.Ejercicio1;
 
 import java.util.Arrays;
@@ -36,3 +50,4 @@ public class Main {
         invertirArreglo(arr, inicio + 1, fin - 1);
     }
 }
+

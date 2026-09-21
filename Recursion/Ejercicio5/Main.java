@@ -1,3 +1,15 @@
+/*
+ * Este programa fue realizado por los siguientes integrantes:
+ *  * Flores Contreras Ariel Roberto
+ *  * Gonzalez Mendez Omar Gabriel
+ *  * Pegueros Trinidad Jorge Alexis
+ *  * Ramirez Pineda Luis Ernesto
+ *  * Rebolledo Hernandez Jesus Benjamin
+ *
+ * Instrucciones:
+ * 5. Crear un subprograma recursivo que obtenga el resultado de elevar un
+ * número a otro. Ambos números se deben pasar como parámetros. 10 puntos.
+ */
 package Recursion.Ejercicio5;
 
 public class Main {
@@ -27,3 +39,4 @@ public class Main {
         return base * potencia(base, exponente - 1);
     }
 }
+

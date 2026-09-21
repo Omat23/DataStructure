@@ -1,3 +1,15 @@
+/*
+ * Este programa fue realizado por los siguientes integrantes:
+ *  * Flores Contreras Ariel Roberto
+ *  * Gonzalez Mendez Omar Gabriel
+ *  * Pegueros Trinidad Jorge Alexis
+ *  * Ramirez Pineda Luis Ernesto
+ *  * Rebolledo Hernandez Jesus Benjamin
+ *
+ * Instrucciones:
+ * 4. Crea un subprograma recursivo que obtenga la cantidad de dígitos de un
+ * número N. Se debe pasar como parámetro el número N. 15 puntos.
+ */
 package Recursion.Ejercicio4;
 
 public class Main {
@@ -30,3 +42,4 @@ public class Main {
         return 1 + contarDigitos(n / 10);
     }
 }
+

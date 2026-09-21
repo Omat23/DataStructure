@@ -1,3 +1,16 @@
+/*
+ * Este programa fue realizado por los siguientes integrantes:
+ *  * Flores Contreras Ariel Roberto
+ *  * Gonzalez Mendez Omar Gabriel
+ *  * Pegueros Trinidad Jorge Alexis
+ *  * Ramirez Pineda Luis Ernesto
+ *  * Rebolledo Hernandez Jesus Benjamin
+ *
+ * Instrucciones:
+ * 2. Escriba un subprograma recursivo que invierta el orden de una cadena de caracte-
+ * res. Por ejemplo, si la cadena de entrada es ROMA, el resultado que debe arrojar el
+ * programa es AMOR. 15 puntos.
+ */
 package Recursion.Ejercicio2;
 
 public class Main {
@@ -28,3 +41,4 @@ public class Main {
         return str.charAt(str.length() - 1) + invertirCadena(str.substring(0, str.length() - 1));
     }
 }
+

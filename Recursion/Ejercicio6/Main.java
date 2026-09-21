@@ -1,3 +1,18 @@
+/*
+ * Este programa fue realizado por los siguientes integrantes:
+ *  * Flores Contreras Ariel Roberto
+ *  * Gonzalez Mendez Omar Gabriel
+ *  * Pegueros Trinidad Jorge Alexis
+ *  * Ramirez Pineda Luis Ernesto
+ *  * Rebolledo Hernandez Jesus Benjamin
+ *
+ * Instrucciones:
+ * 6. Inversión de capital. Se ha depositado en una institución bancaria un monto
+ * de capital m por el cual se recibe un x% de interés mensual. El problema
+ * consiste en determinar el capital que se tendrá al cabo de n meses. Escriba
+ * un subprograma recursivo que resuelva este problema. Recuerde que debe
+ * establecer el estado básico recursivo del problema. 15 puntos.
+ */
 package Recursion.Ejercicio6;
 
 public class Main {
@@ -35,3 +50,4 @@ public class Main {
         return capitalMesAnterior + interesGenerado;
     }
 }
+
