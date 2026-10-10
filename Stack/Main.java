@@ -18,6 +18,12 @@ import java.util.Scanner;
 public class Main {
 
     /**
+     * Evita crear instancias de la clase de aplicación.
+     */
+    private Main() {
+    }
+
+    /**
      * Inicia el menú y procesa las opciones hasta que el usuario elija salir.
      *
      * @param args argumentos de línea de comandos (no utilizados)
